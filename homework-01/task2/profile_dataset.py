@@ -250,6 +250,31 @@ def section_duplicates(filtered) -> list[str]:
         ])
     return lines
 
+ARTIFACT_PATTERNS = {
+    "Literal `\\n` (backslash + n)": r"\\n",
+    "HTML tags (e.g. `<br>`)": r"<\s*/?\s*[a-zA-Z][^>]*>",
+}
+
+
+def section_artifacts(filtered) -> list[str]:
+    """Formatting artifacts first noticed in the 20-record inspection."""
+    lines = ["## Formatting artifacts in ticket text", ""]
+    text = filtered[TEXT_FIELD].fillna("").astype(str)
+    n = len(filtered)
+    rows = []
+    for label, pattern in ARTIFACT_PATTERNS.items():
+        hit = text.str.contains(pattern, regex=True)
+        examples = ", ".join(sorted(filtered.loc[hit, "record_id"])[:3]) or "–"
+        rows.append([label, f"{int(hit.sum()):,}", pct(int(hit.sum()), n), examples])
+    lines += [
+        "The 20-record inspection found literal `\\n` sequences and HTML `<br>` tags "
+        f"inside `{TEXT_FIELD}`. This section counts how often they occur across all "
+        "English rows. A row can match more than one pattern.",
+        "",
+        *md_table(["Artifact", "Rows", "% of English rows", "First record_ids"], rows),
+    ]
+    return lines
+
 
 def main() -> None:
     raw = load_source()
@@ -267,6 +292,7 @@ def main() -> None:
         section_labels(filtered),
         section_text_length(filtered),
         section_duplicates(filtered),
+        section_artifacts(filtered),
     ):
         lines += section + [""]
 

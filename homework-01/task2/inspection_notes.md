@@ -38,7 +38,7 @@ The `selection_method` column records which method chose each row. **All prevale
 
 ## Summary
 
-- **Labels are often questionable.** Of the 17 random rows, 8 labels fit, 3 clearly don't (R23977, R24236, R26828) and 6 are unclear. The one rare-queue ticket (R06686) is also mislabelled. Label noise is high enough to limit how accurate any routing model can be.
+- **Labels are often questionable.** In this small sample, 8 of the 17 random labels fit, 3 clearly don't (R23977, R24236, R26828) and 6 are unclear. The one rare-queue ticket (R06686) also looks mislabelled. If that pattern holds across the dataset, label noise would limit routing accuracy. These judgements rest on my own reading of the queue names: the dataset does not define what each queue covers (for example, Product Support versus Technical Support), so "doesn't fit" means "doesn't fit my reading of the queue name".
 - **Similar tickets get different queues.** Five random tickets are about healthcare data security (R06988, R12854, R22722, R23977, R26698), and they are spread across four queues (Product Support ×2, Technical Support, Service Outages and Maintenance, IT Support). The queues, especially Product vs Technical Support, overlap heavily.
 - **Formatting junk appears in 3 of 17** random bodies: literal `\n\n` (R00226, R00556) and HTML `<br>` (R24236). One body (R00556) also mixes in agent-reply text.
 - **No personal data found** in any of the 20 rows: no names, emails, phone numbers or account numbers. Several tickets *mention* patient data without containing any. The text is clearly synthetic (invented product combinations in R05255, R06988, R24799).

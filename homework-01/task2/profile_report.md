@@ -97,3 +97,12 @@ The 5 shortest:
 Reported separately, and **not** part of the exact count: after normalising (lower-casing and collapsing whitespace) there are 8 redundant copies in 8 groups. This differs from the Task 1 check, which removed whitespace entirely and covered all languages, so the two counts are not directly comparable.
 
 No exact duplicate groups found.
+
+## Formatting artifacts in ticket text
+
+The 20-record inspection found literal `\n` sequences and HTML `<br>` tags inside `body`. This section counts how often they occur across all English rows. A row can match more than one pattern.
+
+| Artifact | Rows | % of English rows | First record_ids |
+|---|---|---|---|
+| Literal `\n` (backslash + n) | 740 | 4.5% | R00002, R00003, R00004 |
+| HTML tags (e.g. `<br>`) | 520 | 3.2% | R00980, R00991, R01241 |
