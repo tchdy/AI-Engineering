@@ -1,0 +1,127 @@
+record_id,provenance,generator,scenario,seed_record_id,subject,body,priority,type,queue,language,max_seed_overlap_words
+SYN-RET-001,synthetic,template_v1,policy_change,R16249,Suggestion to Change Return Conditions,"Customer Support,
+
+We would like to request a change to the return policy for office peripherals. Customers have told us the current conditions make returns difficult. Extending the return period would improve customer satisfaction. Could you review this request and let us know whether the policy can be updated? Thank you for your help.",low,Change,Returns and Exchanges,en,3
+SYN-RET-002,synthetic,template_v1,policy_inquiry,R00081,Return Eligibility for Wireless Mouse,"Hello Customer Support,
+
+I bought a wireless mouse from your store 17 days ago and I am thinking about returning it. Before I start, I want to make sure I meet all the conditions. Please let me know the eligibility rules and whether a receipt or order number is needed.",medium,Request,Returns and Exchanges,en,4
+SYN-RET-003,synthetic,template_v1,policy_inquiry,R00081,Return Eligibility for Usb-C Hub,"Dear Customer Support Team,
+
+I bought a USB-C hub from your store 25 days ago and I am thinking about returning it. I could not find clear information about this on your website. Please let me know the eligibility rules and whether a receipt or order number is needed. Thank you for your help.",low,Request,Returns and Exchanges,en,5
+SYN-RET-004,synthetic,template_v1,defective_items,R00127,Return Request for Faulty Items,I would like to return the wireless router and portable SSD I received recently. Each item has a problem: it arrived with visible damage to the casing. They are otherwise in good condition and I still have the original packaging. Please send me the return instructions and tell me whether a refund or replacement is possible. Please let me know if you need any further information.,medium,Incident,Returns and Exchanges,en,4
+SYN-RET-005,synthetic,template_v1,portal_fault,R12297,Customers Unable to Complete Returns,"Hello Customer Support,
+
+Several customers have told us they cannot complete returns or exchanges through the returns page on your website. The form freezes at the last step and no return label is generated. It seems to have begun after last week's system maintenance. Restarting the service did not help. Please investigate and let us know when returns can be processed normally again. I look forward to your reply.",high,Incident,Returns and Exchanges,en,2
+SYN-RET-006,synthetic,template_v1,policy_inquiry,R00081,Question About Your Return Policy,I recently purchased a graphics tablet and would like to know whether it can still be returned. I could not find clear information about this on your website. Please let me know the eligibility rules and whether a receipt or order number is needed.,low,Request,Returns and Exchanges,en,3
+SYN-RET-007,synthetic,template_v1,bulk_compat_return,R15558,Return Request for Several Products,"Hello Customer Support,
+
+Please start a return for several products from our recent order. They are not compatible with the systems we use. We would prefer a refund rather than replacements. Please tell us how to send them back.",medium,Change,Returns and Exchanges,en,2
+SYN-RET-008,synthetic,template_v1,bulk_compat_return,R15558,Return Request for Four Products,"Hello Customer Support,
+
+Please start a return for four products from our recent order. They are not compatible with the systems we use. We would prefer a refund rather than replacements. Please tell us how to send them back.",medium,Change,Returns and Exchanges,en,2
+SYN-RET-009,synthetic,template_v1,exchange_inquiry,R00460,How to Swap a Recent Purchase,"Dear Customer Support Team,
+
+I would like to exchange the docking station I bought last month for the newer version. It has not been used beyond a quick test. Does the item need to be in its original box, and is there a price difference to pay? Thank you for your help.",medium,Request,Returns and Exchanges,en,5
+SYN-RET-010,synthetic,template_v1,policy_inquiry,R00081,Return Eligibility for External Hard Drive,"Customer Support,
+
+I bought a external hard drive from your store 25 days ago and I am thinking about returning it. Before I start, I want to make sure I meet all the conditions. Could you explain the time limit for returns and whether the original packaging is required? Please let me know if you need any further information.",medium,Request,Returns and Exchanges,en,4
+SYN-RET-011,synthetic,template_v1,refund_delay,R00350,Delayed Refund for Returned Item,"I returned a wireless mouse three weeks ago, and the return was accepted. Your policy says refunds are processed within 5 to 7 business days, but I have not received anything yet. I contacted the store once already but did not get a clear answer. Could you check the status of my refund and tell me when to expect it? Thank you for your help.",medium,Incident,Returns and Exchanges,en,3
+SYN-RET-012,synthetic,template_v1,digital_return,R28384,Refund Request for Design Software Bundle,"Dear Customer Support,
+
+A customer wants to return the design software bundle they purchased because it will not install. It appears to be incompatible with the operating system in use. Reinstalling and running it as administrator did not help. Please advise whether a refund is possible for a digital product in this situation. Thank you in advance for your assistance.",medium,Incident,Returns and Exchanges,en,3
+SYN-RET-013,synthetic,template_v1,defective_items,R00127,Request to Return Several Products,"I would like to return the USB-C hub, graphics tablet and external hard drive I received recently. After setting them up, I found that it disconnects repeatedly during normal use. I have tried reconnecting and restarting my computer, but the problem remains. Could you confirm the next steps and how long the return will take? I look forward to your reply.",medium,Incident,Returns and Exchanges,en,4
+SYN-RET-014,synthetic,template_v1,status_unclear,R00616,Unclear Return Status,"Customer Support,
+
+I started a return for a wireless mouse through the online returns portal and followed every step. The tracking shows the parcel was delivered, but the return still shows as pending. I am not sure whether to expect a refund or a replacement, or when. Please let me know the current status and what happens next. I look forward to your reply.",low,Incident,Returns and Exchanges,en,4
+SYN-RET-015,synthetic,template_v1,portal_fault,R12297,Customers Unable to Complete Returns,"Hello Customer Support,
+
+Several customers have told us they cannot complete returns or exchanges through the returns page on your website. An error message appears when they select a reason for the return. It seems to have begun after last week's system maintenance. Restarting the service did not help. Please investigate and let us know when returns can be processed normally again. Thank you in advance for your assistance.",medium,Incident,Returns and Exchanges,en,3
+SYN-RET-016,synthetic,template_v1,refund_delay,R00350,Refund Not Received After Return,"I returned a docking station two weeks ago, and the return was accepted. Your policy says refunds are processed within 5 to 7 business days, but I have not received anything yet. I have checked my account and my emails, and there is no update on the refund. Please look into this and confirm when the refund will be issued. Thank you for your help.",high,Incident,Returns and Exchanges,en,3
+SYN-RET-017,synthetic,template_v1,defective_items,R00127,Request to Return a Product,"Customer Support,
+
+I would like to return the graphics tablet I received recently. After setting it up, I found that it stops responding after a few minutes of use. It is otherwise in good condition and I still have the original packaging. Could you confirm the next steps and how long the return will take? Thank you in advance for your assistance.",high,Incident,Returns and Exchanges,en,4
+SYN-RET-018,synthetic,template_v1,portal_fault,R12297,Customers Unable to Complete Returns,"Several customers have told us they cannot complete returns or exchanges through the returns page on your website. The request is submitted, but no confirmation email is sent. The problem started after the most recent software update. We have cleared the cache and tested different browsers, but the issue continues. Please investigate and let us know when returns can be processed normally again. I look forward to your reply.",medium,Incident,Returns and Exchanges,en,2
+SYN-RET-019,synthetic,template_v1,status_unclear,R00616,No Update on My Return,"Dear Customer Support Team,
+
+I started a return for a laser printer through the returns page on your website and followed every step. Since then I have had no confirmation that the item was received. I am not sure whether to expect a refund or a replacement, or when. Please let me know the current status and what happens next.",medium,Incident,Returns and Exchanges,en,5
+SYN-RET-020,synthetic,template_v1,exchange_inquiry,R00460,Exchanging a External Hard Drive,"Hello Customer Support,
+
+I would like to exchange the external hard drive I bought last month for a larger size. The item works, but it is not quite what I need. Could you explain how the exchange works and how long it usually takes? Thank you in advance for your assistance.",low,Request,Returns and Exchanges,en,4
+SYN-RET-021,synthetic,template_v1,refund_delay,R00350,Refund Status for Returned Design Software Bundle,"Dear Customer Support Team,
+
+I returned a design software bundle two weeks ago, and the return was accepted. Your policy says refunds are processed within 7 to 10 business days, but I have not received anything yet. I have checked my account and my emails, and there is no update on the refund. Please look into this and confirm when the refund will be issued. Please let me know if you need any further information.",medium,Incident,Returns and Exchanges,en,6
+SYN-RET-022,synthetic,template_v1,bulk_compat_return,R15558,Start Return for Incompatible Products,"Customer Support,
+
+Please start a return for several products from our recent order. They are not compatible with the systems we use. We would prefer a refund rather than replacements. Let us know the next steps. Thank you for your help.",medium,Change,Returns and Exchanges,en,3
+SYN-RET-023,synthetic,template_v1,policy_change,R16249,Suggestion to Change Return Conditions,"Hello Customer Support,
+
+We would like to request a change to the return policy for office peripherals. The current return window is too short for customers to test products properly. Extending the return period would improve customer satisfaction. Could you review this request and let us know whether the policy can be updated?",low,Change,Returns and Exchanges,en,3
+SYN-RET-024,synthetic,template_v1,bulk_compat_return,R15558,Return Request for Four Products,"Hello Customer Support,
+
+Please start a return for four products from our recent order. After testing, they do not work with our existing hardware and software. We would prefer a refund rather than replacements. Please tell us how to send them back. Please let me know if you need any further information.",high,Change,Returns and Exchanges,en,2
+SYN-RET-025,synthetic,template_v1,policy_change,R16249,Longer Return Window for Software Licences,"Hello Customer Support,
+
+We would like to request a change to the return policy for software licences. Customers have told us the current conditions make returns difficult. Extending the return period would improve customer satisfaction. Could you review this request and let us know whether the policy can be updated? I look forward to your reply.",medium,Change,Returns and Exchanges,en,3
+SYN-RET-026,synthetic,template_v1,digital_return,R28384,Unable to Install Purchased Software,A customer wants to return the project management software licence they purchased because it will not install. The installer stops with an error part of the way through. Reinstalling and running it as administrator did not help. Please advise whether a refund is possible for a digital product in this situation. Thank you in advance for your assistance.,medium,Incident,Returns and Exchanges,en,3
+SYN-RET-027,synthetic,template_v1,policy_inquiry,R00081,How Do I Return a Recent Purchase?,"Customer Support,
+
+I bought a wireless router from your store 15 days ago and I am thinking about returning it. Before I start, I want to make sure I meet all the conditions. Please let me know the eligibility rules and whether a receipt or order number is needed. Thank you in advance for your assistance.",high,Request,Returns and Exchanges,en,4
+SYN-RET-028,synthetic,template_v1,exchange_inquiry,R00460,Question About Product Exchanges,"I would like to exchange the graphics tablet I bought last month for a different model. It has not been used beyond a quick test. Does the item need to be in its original box, and is there a price difference to pay? I look forward to your reply.",low,Request,Returns and Exchanges,en,4
+SYN-RET-029,synthetic,template_v1,portal_fault,R12297,Fault in Returns System,Several customers have told us they cannot complete returns or exchanges through the exchange request form. The form freezes at the last step and no return label is generated. It seems to have begun after last week's system maintenance. Restarting the service did not help. Please investigate and let us know when returns can be processed normally again.,high,Incident,Returns and Exchanges,en,2
+SYN-RET-030,synthetic,template_v1,status_unclear,R00616,No Update on My Return,"Dear Customer Support,
+
+I started a return for a noise-cancelling headset through the returns page on your website and followed every step. Since then I have had no confirmation that the item was received. I am not sure whether to expect a refund or a replacement, or when. Please let me know the current status and what happens next. I look forward to your reply.",high,Incident,Returns and Exchanges,en,4
+SYN-RET-031,synthetic,template_v1,digital_return,R28384,Unable to Install Purchased Software,"Dear Customer Support Team,
+
+A customer wants to return the project management software licence they purchased because it will not install. It appears to be incompatible with the operating system in use. Reinstalling and running it as administrator did not help. Please advise whether a refund is possible for a digital product in this situation.",low,Incident,Returns and Exchanges,en,4
+SYN-RET-032,synthetic,template_v1,exchange_inquiry,R00460,How to Swap a Recent Purchase,"Hello Customer Support,
+
+I would like to exchange the wireless mouse I bought last month for a larger size. The item works, but it is not quite what I need. What documents do I need, and do I have to pay for return shipping? Thank you in advance for your assistance.",medium,Request,Returns and Exchanges,en,4
+SYN-RET-033,synthetic,template_v1,status_unclear,R00616,Return Submitted but Not Confirmed,"Dear Customer Support Team,
+
+I started a return for a 27-inch monitor through the online returns portal and followed every step. The tracking shows the parcel was delivered, but the return still shows as pending. I am not sure whether to expect a refund or a replacement, or when. Please let me know the current status and what happens next. Please let me know if you need any further information.",medium,Incident,Returns and Exchanges,en,5
+SYN-RET-034,synthetic,template_v1,policy_inquiry,R00081,Question About Your Return Policy,"Dear Customer Support Team,
+
+I bought a antivirus subscription from your store 11 days ago and I am thinking about returning it. I could not find clear information about this on your website. Could you explain the time limit for returns and whether the original packaging is required? I look forward to your reply.",medium,Request,Returns and Exchanges,en,5
+SYN-RET-035,synthetic,template_v1,policy_change,R16249,Request to Update Return Policy,"Dear Customer Support Team,
+
+We would like to request a change to the return policy for hardware accessories. The current return window is too short for customers to test products properly. A more flexible policy would reduce complaints and build trust. Could you review this request and let us know whether the policy can be updated? Thank you in advance for your assistance.",low,Change,Returns and Exchanges,en,4
+SYN-RET-036,synthetic,template_v1,status_unclear,R00616,Unclear Return Status,"Customer Support,
+
+I started a return for a laser printer through the exchange request form and followed every step. Since then I have had no confirmation that the item was received. I am not sure whether to expect a refund or a replacement, or when. Please let me know the current status and what happens next. Thank you in advance for your assistance.",medium,Incident,Returns and Exchanges,en,4
+SYN-RET-037,synthetic,template_v1,policy_change,R16249,Suggestion to Change Return Conditions,"Dear Customer Support,
+
+We would like to request a change to the return policy for software licences. Customers have told us the current conditions make returns difficult. Extending the return period would improve customer satisfaction. Could you review this request and let us know whether the policy can be updated? Thank you for your help.",medium,Change,Returns and Exchanges,en,3
+SYN-RET-038,synthetic,template_v1,defective_items,R00127,Defective Hardware Return,I would like to return the external hard drive and wireless mouse I received recently. Each item has a problem: it arrived with visible damage to the casing. They are otherwise in good condition and I still have the original packaging. Could you confirm the next steps and how long the return will take?,high,Incident,Returns and Exchanges,en,4
+SYN-RET-039,synthetic,template_v1,refund_delay,R00350,Refund Status for Returned Usb-C Hub,"Dear Customer Support Team,
+
+I returned a USB-C hub three weeks ago, and the return was accepted. Your policy says refunds are processed within 10 to 14 business days, but I have not received anything yet. I have checked my account and my emails, and there is no update on the refund. Could you check the status of my refund and tell me when to expect it? Please let me know if you need any further information.",low,Incident,Returns and Exchanges,en,5
+SYN-RET-040,synthetic,template_v1,refund_delay,R00350,Refund Not Received After Return,"Dear Customer Support Team,
+
+I returned a project management software licence three weeks ago, and the return was accepted. Your policy says refunds are processed within 5 to 7 business days, but I have not received anything yet. I contacted the store once already but did not get a clear answer. Could you check the status of my refund and tell me when to expect it? Thank you in advance for your assistance.",high,Incident,Returns and Exchanges,en,5
+SYN-RET-041,synthetic,template_v1,bulk_compat_return,R15558,Return Request for Two Products,Please start a return for two products from our recent order. They are not compatible with the systems we use. We would prefer a refund rather than replacements. Let us know the next steps. Thank you in advance for your assistance.,medium,Change,Returns and Exchanges,en,3
+SYN-RET-042,synthetic,template_v1,digital_return,R28384,Unable to Install Purchased Software,"Customer Support,
+
+A customer wants to return the accounting software licence they purchased because it will not install. It appears to be incompatible with the operating system in use. The troubleshooting guide was followed, but the problem was not solved. Please advise whether a refund is possible for a digital product in this situation. Please let me know if you need any further information.",low,Incident,Returns and Exchanges,en,3
+SYN-RET-043,synthetic,template_v1,exchange_inquiry,R00460,How to Swap a Recent Purchase,"I would like to exchange the webcam I bought last month for a different model. It has not been used beyond a quick test. Does the item need to be in its original box, and is there a price difference to pay? I look forward to your reply.",medium,Request,Returns and Exchanges,en,4
+SYN-RET-044,synthetic,template_v1,status_unclear,R00616,Unclear Return Status,"Dear Customer Support,
+
+I started a return for a 27-inch monitor through the exchange request form and followed every step. The tracking shows the parcel was delivered, but the return still shows as pending. I am not sure whether to expect a refund or a replacement, or when. Could you confirm whether my return has been received and processed? Please let me know if you need any further information.",medium,Incident,Returns and Exchanges,en,4
+SYN-RET-045,synthetic,template_v1,defective_items,R00127,Request to Return Several Products,"Dear Customer Support,
+
+I would like to return the portable SSD and laser printer I received recently. After setting them up, I found that it disconnects repeatedly during normal use. I have tried reconnecting and restarting my computer, but the problem remains. Please send me the return instructions and tell me whether a refund or replacement is possible.",medium,Incident,Returns and Exchanges,en,4
+SYN-RET-046,synthetic,template_v1,exchange_inquiry,R00460,How to Swap a Recent Purchase,"Hello Customer Support,
+
+I would like to exchange the portable SSD I bought last month for the wireless version. The item works, but it is not quite what I need. Does the item need to be in its original box, and is there a price difference to pay? Thank you in advance for your assistance.",medium,Request,Returns and Exchanges,en,4
+SYN-RET-047,synthetic,template_v1,defective_items,R00127,Request to Return a Product,"Hello Customer Support,
+
+I would like to return the webcam I received recently. After setting it up, I found that it does not match the specifications listed on your website. It is otherwise in good condition and I still have the original packaging. Please send me the return instructions and tell me whether a refund or replacement is possible.",medium,Incident,Returns and Exchanges,en,4
+SYN-RET-048,synthetic,template_v1,portal_fault,R12297,Fault in Returns System,"Hello Customer Support,
+
+Several customers have told us they cannot complete returns or exchanges through the returns page on your website. An error message appears when they select a reason for the return. The problem started after the most recent software update. We have cleared the cache and tested different browsers, but the issue continues. Please investigate and let us know when returns can be processed normally again. Please let me know if you need any further information.",high,Incident,Returns and Exchanges,en,2
+SYN-RET-049,synthetic,template_v1,refund_delay,R00350,Refund Status for Returned Photo Editing Software,"Customer Support,
+
+I returned a photo editing software three weeks ago, and the return was accepted. Your policy says refunds are processed within 7 to 10 business days, but I have not received anything yet. I have checked my account and my emails, and there is no update on the refund. Could you check the status of my refund and tell me when to expect it? Please let me know if you need any further information.",high,Incident,Returns and Exchanges,en,6
+SYN-RET-050,synthetic,template_v1,digital_return,R28384,Return of Digital Product,"Dear Customer Support,
+
+A customer wants to return the video conferencing add-on they purchased because it will not install. It appears to be incompatible with the operating system in use. Reinstalling and running it as administrator did not help. Please advise whether a refund is possible for a digital product in this situation.",low,Incident,Returns and Exchanges,en,3
