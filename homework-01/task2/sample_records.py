@@ -63,7 +63,7 @@ def main() -> None:
     sample["selection_method"] = sample["record_id"].map(picks).fillna("random")
     sample = sample.sort_values("record_id")[OUT_COLUMNS]
 
-    sample.to_csv(OUT_FILE, index=False)
+    sample.to_csv(OUT_FILE, index=False, lineterminator="\n")
     print(f"Saved {len(sample)} records ({len(targeted)} targeted, "
           f"{len(random_core)} random, seed {SEED}) to {OUT_FILE}")
 

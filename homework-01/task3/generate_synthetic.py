@@ -328,7 +328,7 @@ def main() -> None:
 
     out = pd.DataFrame(records)
     assert len(out) == N_RECORDS and out["record_id"].is_unique
-    out.to_csv(OUT_FILE, index=False)
+    out.to_csv(OUT_FILE, index=False, lineterminator="\n")
     print(f"Wrote {len(out)} synthetic records (seed {SEED}) to {OUT_FILE}")
     print(out["scenario"].value_counts().sort_index().to_string())
 
